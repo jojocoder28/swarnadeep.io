@@ -8,8 +8,8 @@
 function handleMobileDevices() {
     if (isMobileDevice()) {
         // Display a message or redirect the user to a mobile version of the website
-     while(1){
-        alert("This website is not optimized for mobile devices. Please visit it on a desktop or laptop computer.");}
+    
+        alert("This website is not optimized for mobile devices. Please visit it on a desktop or laptop computer.");
         // Alternatively, you can redirect the user to a mobile version of your website using:
         // window.location.href = "url-to-mobile-version";
         //window.location.href= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dfunny&psig=AOvVaw37nfxzipPAemMPjugk1udc&ust=1690540694406000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjG0_7YroADFQAAAAAdAAAAABAE";
