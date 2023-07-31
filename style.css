@@ -219,23 +219,136 @@ html,body{
     
   }
 
-  .page4{
+  #page4{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #0a3cce;
+    background-color: black;
 }
 
-.page4>h1{
-    
-        color: white;
-        position: absolute;
-        align-items: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        top: 20vh;
-        left:18.6vw;
-        height:20px;
-        font-size: 30px;
-    
-    
+#page4>table{
+    color: white;
+    position: absolute;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 70vh;
+    left:9.1vw;
+    height:20px;
+    width: 100vw;
+    font-size: 30px;    
 }
+
+
+#page5>table{
+    color: white;
+    position: absolute;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 10vh;
+    left:6.5vw;
+    height:20px;
+    width: 100vw;
+    font-size: 30px;    
+}
+
+
+.space{
+    justify-content: space-between;
+    word-spacing: 2vw;
+}
+
+
+#more{
+    color: white;
+    position: absolute;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 70vh;
+    left:67vw;
+    height:20px;
+    width: 100vw;
+    font-size: 40px;    
+    font-weight: bold;
+    color: gray;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+#marks{
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.centertext{
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 20vh;
+    left:0vw;
+    height:20px;
+    width: 100vw;
+    font-size: 130px;
+    text-shadow:
+    -1px -1px 0 white,
+     0   -1px 0 white,
+     1px -1px 0 white,
+     1px  0   0 white,
+     1px  1px 0 white,
+     0    1px 0 white,
+    -1px  1px 0 white,
+    -1px  0   0 white;
+}
+
+.centertext>span{
+    color: rgba(255, 224, 191, 0.594);
+}
+
+#page5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.skill{
+    color: white;
+    position: absolute;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 60vh;
+    left:67vw;
+    height:20px;
+    width: 100vw;
+    font-size: 20px;    
+    font-weight: bold;
+    justify-content: space-between;
+    word-spacing: 5px;
+}
+
+
+#page6{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+#page7{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+#canvas2{
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+    z-index: 10;
+}
+
