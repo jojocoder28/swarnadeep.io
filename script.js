@@ -10,7 +10,7 @@ function handleMobileDevices() {
         // Display a message or redirect the user to a mobile version of the website
         alert("This website is not optimized for mobile devices. Please visit it on a desktop or laptop computer.");
         // Alternatively, you can redirect the user to a mobile version of your website using:
-        // window.location.href = "url-to-mobile-version";
+        window.location.href = "https://jojocoder28.github.io/mobiledevice/";
     }
 }
 handleMobileDevices()
