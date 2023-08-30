@@ -10,6 +10,8 @@ function handleMobileDevices() {
         // Display a message or redirect the user to a mobile version of the website
         alert("This website is not optimized for mobile devices. Please visit it on a desktop or laptop computer.");
         // Alternatively, you can redirect the user to a mobile version of your website using:
+        var content = 'Phone diye esob next level website visit hoyna, doya kore desktop niye asun.';
+        document.getElementsByTagName('body')[0].innerHTML = content;
         window.location.href = "https://jojocoder28.github.io/mobiledevice/";
     }
 }
